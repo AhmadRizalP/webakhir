@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    
+}
+.form-box{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    margin: 10% auto;
+    background: #f1f1f1;
+    padding: 5px; 
+    overflow: hidden;
+    border-radius: 20px;
+} 
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px ;
+}
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ffae00,#f58402);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.social-icon {
+    margin: 30px 130px ;
+    text-align: center;
+    display: flex;
+}
+.img{
+    width: 30px ;
+    margin: 0 5px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d; 
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    outline: none;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ffae00,#f58402);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+.check-box span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login {
+    left: 50px;
+}
+#register {
+    left: 450px;
+}
+.login-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+.login-content h2{
+	margin: 15px 0;
+	color: #333;
+	text-transform: uppercase;
+    font-size: 2.9rem;
+}
+.login-content .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.login-content .input-div.one{
+	margin-top: 0;
+}
+.i{
+	color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	transition: .3s;
+}
+
+.input-div > div{
+    position: relative;
+	height: 45px;
+}
+
+.input-div > div > h5{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #999;
+	font-size: 18px;
+	transition: .3s;
+}
+
+.input-div:before, .input-div:after{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	width: 0%;
+	height: 2px;
+	background-color: #f58402;
+	transition: .4s;
+}
+
+.input-div:before{
+	right: 50%;
+}
+
+.input-div:after{
+	left: 50%;
+}
+
+.input-div.focus:before, .input-div.focus:after{
+	width: 50%;
+}
+
+.input-div.focus > div > h5{
+	top: -5px;
+	font-size: 15px;
+}
+
+.input-div.focus > .i > i{
+	color: #f58402;
+}
+
+.input-div > div > input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1.2rem;
+	color: #555;
+	font-family: 'poppins', sans-serif;
+}
+
+.input-div.pass{
+	margin-bottom: 4px;
+}
+
+a{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+a:hover{
+	color: #f58402;
+}
+
+.btn{
+	display: block;
+	width: 100%;
+	height: 45px;
+	border-radius: 30px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #f58402 ,#ffae00, #f58402);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: rgb(32, 32, 32);
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+    transition: .5s;
+    margin-top: 40px;
+}
+.btn:hover{
+    background-position: right;
+    color: white;
+}
+.about1 {
+    margin-top: 100px;
+    width: 30%;
+}
+.about1 img {
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 9px #ff61241f;
+}
+.tabel {
+    width: 96%;
+    border-top: 2px solid orange;
+    
+}
+.tabel tr {
+    height: 50px;
+}
+
+
